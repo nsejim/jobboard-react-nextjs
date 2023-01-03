@@ -1,4 +1,4 @@
-import styles from "./styles.css";
+import "./styles.css";
 
 export default function RootLayout({
   children,
@@ -9,11 +9,11 @@ export default function RootLayout({
     <html>
       <head />
       <body>
-        <header className={styles.header}>
+        <header>
           Header
         </header>
         {children}
-        <footer className="styles.footer">Footer</footer>
+        <footer>Footer</footer>
       </body>
     </html>
   )
